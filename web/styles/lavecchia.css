@@ -3,5 +3,24 @@ Copyright: Jenny Faig and Tyler LaVecchia - 2016
 */
 
 html {
-    font-family:"Trebuchet MS",Arial,sans-serif;
+    font-family:"Times New Roman",Arial,sans-serif;
+}
+@media screen and (min-width:501px){
+body{
+    width:80%;
+    margin-left:8%;
+    margin-right:8%;
+}
+header{
+    text-align:center;
+}
+h1{
+    margin-top:2em;
+    margin-bottom:0;
+    font-size:1.5em;
+}
+.personalInfo{
+    margin-top:0;
+    font-size:1em;
+}
 }
