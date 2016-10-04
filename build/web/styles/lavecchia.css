@@ -1,26 +1,148 @@
 /*
-Copyright: Jenny Faig and Tyler LaVecchia - 2016
+ © Copyright: Jenny Faig and Tyler LaVecchia - 2016
 */
 
 html {
-    font-family:"Times New Roman",Arial,sans-serif;
+  font-family: 'Times New Roman',sans-serif;
 }
-@media screen and (min-width:501px){
-body{
-    width:80%;
-    margin-left:8%;
-    margin-right:8%;
+@media screen and (min-width: 501px) {
+    
+  body {
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 80%;
+  }
+  
+  header {
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 2em;
+  }
+  
+  .personalInfo {
+    font-size: 1em;
+    margin-top: 0;
+  }
+  
+  .break {
+    display: none;
+  }
+  
+  h2 {
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: 1.2em;
+    text-decoration: underline;
+  }
+  
+  p {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  p[class*='DateFloater'] {
+    float: right;
+  }
+  
+  p[class*='DateMini'] {
+    display: none;
+  }
+  
+  h3 {
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  ul {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  h2[class='internships'] h3 {
+    font-weight: normal;
+  }
+  
+  .mecDateFloater,
+  .mecTitle {
+    margin-top: 1.2em;
+  }
+  
+  .eSportDateFloater,
+  .eSportsTitle {
+    margin-top: 1.2em;
+  }
+  
 }
-header{
-    text-align:center;
-}
-h1{
-    margin-top:2em;
-    margin-bottom:0;
-    font-size:1.5em;
-}
-.personalInfo{
-    margin-top:0;
-    font-size:1em;
-}
+@media screen and (max-width: 500px) {
+    
+  body {
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .personalInfo {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 2em;
+  }
+  
+  h2 {
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: 1.2em;
+    text-decoration: underline;
+  }
+  
+  .bulletToGo {
+    display: none;
+  }
+  
+  p {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  p[class*='DateFloater'] {
+    display: none;
+  }
+  
+  h3 {
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  ul {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .mecTitle {
+    margin-top: 1.2em;
+  }
+  
+  .eSportsTitle {
+    margin-top: 1.2em;
+  }
+  
+  .eSportsDesc {
+    margin-bottom: 10em;
+  }
 }
